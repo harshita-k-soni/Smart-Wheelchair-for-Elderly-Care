@@ -8,17 +8,17 @@
 #include <ArduinoJson.h>
 
 // Replace with your network credentials
-const char* ssid = "Galaxy A22 5G";   //put your wifi's SSID here
-const char* password = "edvf6460";    //[put your wifi's passworrf here.
+const char* ssid = "[your wifi ssid]";   //put your wifi's SSID here
+const char* password = "[password]";    //[put your wifi's passworrf here.
 
 // Initialize Telegram BOT
 //using botFather
-#define BOTtoken "7016459933:AAHxWryG-1s7HkVQIN_zRvf1kVgKVeeMBGM"  // your Bot Token (Get from Botfather)
+#define BOTtoken "[paste your bot token here]"  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-#define CHAT_ID "1399335614"
+#define CHAT_ID "[paste chat id here]"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
